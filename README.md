@@ -1,3 +1,3 @@
 Alfalfa Automatic Setup
 =============
-This script automatically configures a clean Ubuntu installation for Cellsim, Chromium, YouTubePlayback and YouTubeRecord
+This script will automatically install and configure Chromium, YoutubePlayback, YoutubeRecorder and Cellsim on a clean Ubuntu installation.
