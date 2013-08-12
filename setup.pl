@@ -32,7 +32,7 @@ print `git clone https://github.com/devasia1000/youtube_recorder`;
 print "\n\nPreparing to clone Chromium...\n\n";
 sleep(2);
 print `git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git`;
-print `export PATH="\$PATH":'pwd'/depot_tools`;
+print `export PATH="\$PATH":~/depot_tools`;
 print `git config --global core.deltaBaseCacheLimit 2G`;
 print `gclient config --spec 'solutions = [{u'"'"'managed'"'"': True, u'"'"'name'"'"': u'"'"'src'"'"', u'"'"'url'"'"': u'"'"'https://github.com/devasia1000/chromium.git'"'"', u'"'"'custom_deps'"'"': {}, u'"'"'deps_file'"'"': u'"'"'.DEPS.git'"'"', u'"'"'safesync_url'"'"': u'"'"''"'"'}]'`;
 
