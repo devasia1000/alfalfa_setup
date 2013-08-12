@@ -3,25 +3,25 @@ sleep(3);
 
 print "\n\nUpdating and upgrading everything...\n\n";
 sleep(2);
-print `sudo apt-get update`;
-print `sudo apt-get upgrade`;
-print `sudo apt-get update`;
+print `sudo apt-get -y update`;
+print `sudo apt-get -y upgrade`;
+print `sudo apt-get -y update`;
 
 print "\n\nInstalling git...\n\n";
 sleep(2);
-print `sudo apt-get install git`;
+print `sudo apt-get -y install git`;
 
 print "\n\nInstalling mininet...\n\n";
 sleep(2);
-print `sudo apt-get install mininet`;
+print `sudo apt-get -y install mininet`;
 
 print "\n\nInstalling java...\n\n";
 sleep(2);
-print `sudo apt-get install openjdk-7-jdk`;
+print `sudo apt-get -y install openjdk-7-jdk`;
 
 print "\n\nInstalling make\n\n";
 sleep(2);
-print `sudo apt-get install make`;
+print `sudo apt-get -y install make`;
 
 print "\n\nCloning git repos...\n\n";
 sleep(2);
