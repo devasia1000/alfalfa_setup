@@ -13,7 +13,8 @@ print `sudo apt-get -y install git`;
 
 print "\n\nInstalling mininet...\n\n";
 sleep(2);
-print `sudo apt-get -y install mininet`;
+print `git clone git://github.com/mininet/mininet`;
+print `sudo ./mininet/util/install.sh -a`
 
 print "\n\nInstalling java...\n\n";
 sleep(2);
